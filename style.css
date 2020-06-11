@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none
+}
+
+body{
+    background-color: rgba(144, 185, 136, 0.58);
+}
+
+.action-index{
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%,0);
+}
+
+.none{
+    display: none;
+}
+
+.signin_form1,.signup_form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0b8063;
+    width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.signup_form,.signin_form{
+    width: 500px;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: 20px;
+}
+
+.btn-exit-up,.btn-exit-in{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-100%,0);
+    border-radius: 0 10px 0 0;
+}
+
+.btn-exit-in:hover,.btn-exit-up:hover,.btn-exit:hover,.btn-exit-post:hover{
+    background-color: #80000b;
+}
+
+.index_form{
+    width: 300px;
+    margin: 10px;
+}
+
+
+
+.msg_err,.msg_suc{
+    position: absolute;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px 10px 10px 0;
+}
+
+.msg_err{
+    font-size: 20px;
+    color: red;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.msg_suc{
+    font-size: 20px;
+    color: green;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.profile_cont{
+    width: 500px;
+    margin: 20px;
+    background: #0b8063;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.profile_p{
+    margin-left: 10px;
+}
+
+.avatar{
+    width: 300px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.p_cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-exit,.btn-exit-post{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 0 10px 0 0;;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translate(-100%,0);
+    width: 35px;
+    height: 35px;
+}
+
+.add_post_form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background: #0b8063;
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+}
+
+table{
+    width: 60%;
+}
+
+.index_input{
+    width: 300px;
+    margin: 10px;
+}
